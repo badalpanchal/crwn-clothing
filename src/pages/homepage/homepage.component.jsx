@@ -1,9 +1,11 @@
 import React from "react";
 
-import './homepage.styles.scss';
-
+import './homepage.styles.scss'
+import Directory from "../../components/directory/directory.component";
 const Homepage = () => (
-    <div className ='homepage'>
+
+    <Directory />
+    /* <div className ='homepage'>
         <div className ='directory-menu'>
             <div className ='menu-item'>
                 <div className ='content'>
@@ -33,7 +35,7 @@ const Homepage = () => (
                 </div>
             </div>
         </div>
-    </div>
+    </div> */
 );
 
 export default Homepage;
